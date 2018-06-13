@@ -1,0 +1,37 @@
+@import 'setup';
+
+.wrapper {
+  max-width: 100%;
+  background-color: rgb(49, 117, 180);
+  height: 100vh;
+  background-size: cover;
+}
+
+.container {
+  margin: auto;
+  max-width: 500px;
+  padding: 30px;
+  position: absolute;
+  background-color: rgba(255,255,255,0.75);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  h1 {
+    margin: 0px;
+    padding: 15px;
+    font-family: cursive;
+  }
+  button {
+    background-color: rgba(49, 117, 180, 0.5);
+    border-radius: 3px;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    &:hover {
+      background-color: transparent;
+      border: 2px solid rgba(49, 117, 180, 0.5);
+    }
+  }
+}
